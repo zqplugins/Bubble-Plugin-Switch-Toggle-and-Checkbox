@@ -1,0 +1,13 @@
+{
+    "caption": "Change value of",
+    "fields": {
+        "AAW": {
+            "caption": "New Value",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 0,
+            "value": "boolean"
+        }
+    }
+}

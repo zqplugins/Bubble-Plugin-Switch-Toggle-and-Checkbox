@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "productivity",
+        "2": "technical"
+    },
+    "data_tracked": false,
+    "description": "Just no-nonsense, customizable switch (toggle) and checkbox element.\n\nFeatures:\n- Customize the color scheme of the switch/checkbox. The color scheme can also be embedded into a reusable style.\n- Developer Experience optimized. You can preview all the states of the element in the Editor and Style Editor. What You See is definitely What You Get.\n- Responsive. The size of the element is going to fit it's Bubble's box size. Just ensure that the width is more than the height for the switch to work correctly, and while a rectangular checkbox will still works, we do not know if it is a good idea.\n- Set the value of the element by initial value, autobinding, manually update the element with a workflow action.\n- Override also the default checkbox element of Bubble, if you specify \"yes\" to the \"OVERRIDE_DEFAULT_CHECKBOX\" configuration",
+    "image": "//meta-q.cdn.bubble.io/f1777020548569x374593400023412350/Frame.png",
+    "license": "open_source",
+    "link": "https://forum.bubble.io/t/customizable-switch-checkbox-element-plugin/",
+    "name": "✳️ Switch (Toggle) and Checkbox",
+    "platforms_new": "web",
+    "sa_node_version": 18
+}

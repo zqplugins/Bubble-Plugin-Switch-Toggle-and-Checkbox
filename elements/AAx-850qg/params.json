@@ -1,0 +1,222 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "autobinding_value": "boolean",
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "input forms",
+    "default_dim": {
+        "height": 24,
+        "width": 24
+    },
+    "display": "Custom Checkbox",
+    "events": {
+        "AAf": {
+            "caption": "changed",
+            "name": "changed"
+        }
+    },
+    "fields": {
+        "AAg": {
+            "caption": "Initial Value",
+            "default_val": false,
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "initial_value",
+            "optional": true,
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAh": {
+            "caption": "[On] Tick mark Color",
+            "default_val": "rgba(255,255,255,1)",
+            "doc": "Color for the tick mark, when turned on",
+            "editor": "Color",
+            "in_style": true,
+            "name": "handle_color_on",
+            "rank": 6
+        },
+        "AAi": {
+            "caption": "[On] Background",
+            "default_val": "rgba(57,186,118,1)",
+            "doc": "Color for the background, when turned on",
+            "editor": "Color",
+            "in_style": true,
+            "name": "background_color_on",
+            "rank": 7
+        },
+        "AAj": {
+            "caption": "[Off] Background",
+            "default_val": "rgba(237, 177, 180, 1)",
+            "doc": "Color for the background, when turned off",
+            "editor": "Color",
+            "in_style": true,
+            "name": "background_color_off",
+            "rank": 8
+        },
+        "AAk": {
+            "caption": "Disabled",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "disabled",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAl": {
+            "caption": "[Disabled] Background",
+            "default_val": "rgba(215,215,215,1)",
+            "doc": "Color for the background, when this toggle is disabled",
+            "editor": "Color",
+            "in_style": true,
+            "name": "background_color_disabled",
+            "rank": 12
+        },
+        "AAm": {
+            "caption": "[Disabled] Tick Color",
+            "default_val": "rgba(255, 255, 255, 1)",
+            "doc": "Color for the tickmark, when this toggle is disabled and being turned on",
+            "editor": "Color",
+            "in_style": true,
+            "name": "handle_color_disabled",
+            "rank": 11
+        },
+        "AAn": {
+            "caption": "Make sure the checkbox dimension is sensible. Usually it should be a square or circle.",
+            "editor": "Label",
+            "name": "guide",
+            "rank": 0
+        },
+        "AAo": {
+            "caption": "Border Color",
+            "default_val": "rgba(0,0,0,1)",
+            "doc": "Border color of the Checkbox",
+            "editor": "Color",
+            "in_style": true,
+            "name": "border_color",
+            "rank": 14
+        },
+        "AAp": {
+            "caption": "Border Width",
+            "default_val": 1,
+            "doc": "Border width of the Checkbox (in px)",
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "border_width",
+            "rank": 15
+        },
+        "AAs": {
+            "caption": "Checkbox Padding",
+            "default_val": "20%",
+            "doc": "The space between the background and the handle. Should be a valid CSS unit (px, %)",
+            "editor": "StaticText",
+            "in_style": true,
+            "name": "padding",
+            "rank": 17
+        },
+        "AAt": {
+            "caption": "-------------------------- 𝘽𝙤𝙧𝙙𝙚𝙧 & 𝙎𝙥𝙖𝙘𝙞𝙣𝙜 --------------------------",
+            "editor": "Label",
+            "name": "border_sep",
+            "rank": 13
+        },
+        "AAu": {
+            "caption": "-------------------------- 𝐂𝐨𝐥𝐨𝐫𝐬 --------------------------",
+            "editor": "Label",
+            "name": "color_sep",
+            "rank": 5
+        },
+        "AAv": {
+            "caption": "[Preview] Toggle",
+            "default_val": false,
+            "doc": "Toggle the checkbox in the editor. Doesn't affect run mode",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "editor_preview_toggle",
+            "rank": 19
+        },
+        "AAy": {
+            "caption": "Indeterminate",
+            "default_val": false,
+            "doc": "Whether to show the checkbox in an indeterminate state",
+            "editor": "DynamicValue",
+            "name": "indeterminate",
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAz": {
+            "caption": "-------------------------- 𝐄𝐝𝐢𝐭𝐨𝐫 --------------------------",
+            "editor": "Label",
+            "name": "editor_sep",
+            "rank": 18
+        },
+        "ABA": {
+            "caption": "[Preview] Indeterminate",
+            "default_val": false,
+            "doc": "Show the indeterminate state in the editor. Doesn't affect run mode.",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "editor_preview_indeterminate",
+            "rank": 20
+        },
+        "ABD": {
+            "caption": "[Indet.] Background",
+            "default_val": "rgba(172,172,172,1)",
+            "doc": "Color for the background, when this toggle is indeterminate",
+            "editor": "Color",
+            "in_style": true,
+            "name": "background_color_indeterminate",
+            "rank": 10
+        },
+        "ABE": {
+            "caption": "[Indet.] Handle Color",
+            "default_val": "rgba(255,255,255,1)",
+            "doc": "Color for the handle, when this toggle is indeterminate",
+            "editor": "Color",
+            "in_style": true,
+            "name": "handle_color_indeterminate",
+            "rank": 9
+        },
+        "ABF": {
+            "caption": "[Preview] Disabled",
+            "default_val": false,
+            "doc": "Show the disabled state in the editor. Doesn't affect run mode.",
+            "editor": "Checkbox",
+            "in_style": true,
+            "name": "editor_preview_disabled",
+            "rank": 21
+        },
+        "ABI": {
+            "caption": "Border Radius",
+            "default_val": 4,
+            "doc": "Border radius of the Checkbox (in px)",
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "border_radius",
+            "rank": 16
+        },
+        "ABT": {
+            "caption": "To prevent unexpected behavior, Initial Value will be disregarded when using autobinding.",
+            "editor": "Label",
+            "name": "initial_value_info",
+            "rank": 1
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-android-checkbox",
+    "property_applications": {
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAw": {
+            "caption": "value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\treturn properties.initial_value || properties.autobinding || false;\n}"
+            },
+            "name": "value",
+            "value": "boolean"
+        }
+    },
+    "support_autobinding": true
+}
